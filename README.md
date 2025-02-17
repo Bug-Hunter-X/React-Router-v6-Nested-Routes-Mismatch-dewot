@@ -1,0 +1,3 @@
+# React Router v6 Nested Routes Issue
+
+This repository demonstrates an uncommon issue with nested routes in React Router v6.  The problem involves unexpected rendering of nested routes, even when the path doesn't match the expected route. The parent route renders correctly, but its children are also rendered which causes unexpected behavior.  The solution involves carefully examining route structure and path definitions to ensure accurate matching.
